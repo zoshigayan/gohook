@@ -13,7 +13,7 @@ package main
 import (
 	"fmt"
 
-	hook "github.com/robotn/gohook"
+	hook "github.com/zoshigayan/gohook"
 )
 
 func addEvent() {

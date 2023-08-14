@@ -1,11 +1,7 @@
 # gohook
 
-[![Build Status](https://github.com/robotn/gohook/workflows/Go/badge.svg)](https://github.com/robotn/gohook/commits/master)
-[![CircleCI Status](https://circleci.com/gh/robotn/gohook.svg?style=shield)](https://circleci.com/gh/robotn/gohook)
-![Appveyor](https://ci.appveyor.com/api/projects/status/github/robotn/gohook?branch=master&svg=true)
-[![Go Report Card](https://goreportcard.com/badge/github.com/robotn/gohook)](https://goreportcard.com/report/github.com/robotn/gohook)
-[![GoDoc](https://godoc.org/github.com/robotn/gohook?status.svg)](https://godoc.org/github.com/robotn/gohook)
-<!-- This is a work in progress. -->
+> **Note**
+> This repo is forked from [robotn/gohook](https://github.com/robotn/gohook) for private usage.
 
 ## Requirements (Linux):
 
@@ -16,7 +12,7 @@
 With Go module support (Go 1.11+), just import:
 
 ```go
-import "github.com/robotn/gohook"
+import "github.com/zoshigayan/gohook"
 ```
 
 ## Examples:
@@ -27,7 +23,7 @@ package main
 import (
 	"fmt"
 
-	hook "github.com/robotn/gohook"
+	hook "github.com/zoshigayan/gohook"
 )
 
 func main() {
